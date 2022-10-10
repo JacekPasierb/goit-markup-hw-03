@@ -49,6 +49,7 @@ a:focus {
   line-height: 1.1;
   font-weight: 500;
   letter-spacing: 0.02em;
+  display: flex;
 }
 .menu-contact-style {
   color: var(--background-color-three);
@@ -143,4 +144,11 @@ a:focus {
 .container {
   width: 1200px;
   justify-content: center;
+}
+.container-head {
+  display:flex;
+}
+ul:not(.footer-style) {
+  list-style: none;
+  display: flex;
 }
