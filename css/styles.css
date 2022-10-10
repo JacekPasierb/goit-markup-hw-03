@@ -152,3 +152,6 @@ ul:not(.footer-style) {
   list-style: none;
   display: flex;
 }
+header {
+  border-bottom: 1px solid #ECECEC;
+}
