@@ -140,3 +140,7 @@ a:focus {
   letter-spacing: 00.03em;
   color: var(--background-color-three);
 }
+.container {
+  width: 1200px;
+  justify-content: center;
+}
