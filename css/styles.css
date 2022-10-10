@@ -147,11 +147,17 @@ a:focus {
 }
 .container-head {
   display:flex;
+  display: flex;
 }
 ul:not(.footer-style) {
   list-style: none;
   display: flex;
 }
 header {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
+}
+h1,
+h2,
+ul {
+  margin: 0 auto;
 }
