@@ -146,7 +146,6 @@ a:focus {
   justify-content: center;
 }
 .container-head {
-  display:flex;
   display: flex;
 }
 ul:not(.footer-style) {
