@@ -18,8 +18,8 @@
     />
   </head>
   <body>
-    <header class="container">
-      <div class="container-head">
+    <header>
+      <div class="container container-head">
         <a class="logo" href="/"><span class="logo2">Web</span>Studio</a>
         <nav>
           <ul class="menu-style">
@@ -33,13 +33,15 @@
             <li>
               <a class="menu-contact-style" href="#">info@devstudio.com</a>
             </li>
-            <li><a class="menu-contact-style" href="#">+48 111 111 111</a></li>
+            <li>
+              <a class="menu-contact-style" href="#">+48 111 111 111</a>
+            </li>
           </ul>
         </div>
       </div>
     </header>
-    <main class="container">
-      <section class="section">
+    <main>
+      <section class="section container">
         <ul class="filter">
           <li><button type="button">Wszystkie</button></li>
           <li><button type="button">Strony</button></li>
@@ -47,8 +49,8 @@
           <li><button type="button">Dizajn</button></li>
           <li><button type="button">Marketing</button></li>
         </ul>
-        <ul>
-          <li>
+        <ul class="card-set">
+          <li class="card-set-item">
             <figure>
               <img
                 src="./images/technocrack.jpg"
@@ -63,7 +65,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="card-set-item">
             <figure>
               <img
                 src="./images/grafikanew.jpg"
@@ -77,7 +79,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="card-set-item">
             <figure>
               <img
                 src="./images/restauration.jpg"
@@ -91,7 +93,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="card-set-item">
             <figure>
               <img
                 src="./images/projektprime.jpg"
@@ -105,7 +107,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="card-set-item">
             <figure>
               <img
                 src="./images/projektboxes.jpg"
@@ -119,7 +121,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="card-set-item">
             <figure>
               <img
                 src="./images/inspiration.jpg"
@@ -133,7 +135,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="card-set-item">
             <figure>
               <img
                 src="./images/design.jpg"
@@ -147,7 +149,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="card-set-item">
             <figure>
               <img
                 src="./images/projectlab.jpg"
@@ -161,7 +163,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="card-set-item">
             <figure>
               <img
                 src="./images/growing.jpg"
@@ -178,16 +180,22 @@
         </ul>
       </section>
     </main>
-    <footer class="container">
+    <footer>
       <div class="footer-background">
-        <a class="logo" href="/"><span class="logo2">Web</span>Studio</a>
-        <address class="footer-style">
-          m. Warszawa, Aleje Jerozolimskie 21
-        </address>
-        <ul class="footer-style">
-          <li><a class="footer-contact-style" href="#">info@example.com</a></li>
-          <li><a class="footer-contact-style" href="#">+48 111 111 111</a></li>
-        </ul>
+        <div class="container">
+          <a class="logo" href="/"><span class="logo2">Web</span>Studio</a>
+          <address class="footer-style">
+            m. Warszawa, Aleje Jerozolimskie 21
+          </address>
+          <ul class="footer-style">
+            <li>
+              <a class="footer-contact-style" href="#">info@example.com</a>
+            </li>
+            <li>
+              <a class="footer-contact-style" href="#">+48 111 111 111</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
