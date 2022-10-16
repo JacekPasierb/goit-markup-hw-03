@@ -260,7 +260,7 @@ nav {
 }
 .border-card-set {
   background: var(--color-text);
-  border: 1px solid #EEEEEE;
+  
   margin-bottom: 25px;
 }
 .card-set-tittle {
@@ -268,5 +268,8 @@ nav {
   flex-direction: column;
   padding: 20px 24px;
   gap: 4px;
-
+  border: 1px solid #EEEEEE;
+}
+.no-gap {
+  display: block;
 }
